@@ -1,0 +1,89 @@
+.inputWithButton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.formError{
+    color:red;
+    margin-top: 5px;
+}
+
+.labelGroup{
+    display:flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 22px;
+    color:white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+input{
+    width:320px;
+    height:50px;
+    padding-left:15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#message{
+    height: 250px;
+    width:700px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nameEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+#submit{
+    padding:20px 35px;
+    background-color: rgb(255, 0, 76);
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+#submit:disabled{
+    padding:20px 35px;
+    background-color: rgb(167, 82, 107);
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid white;
+    color: rgb(219, 219, 219);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;   
+}
+
+#q{
+    font-size: 50px;
+    color:white;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}

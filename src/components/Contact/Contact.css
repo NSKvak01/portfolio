@@ -1,0 +1,35 @@
+#titleContact{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+    width:full;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    border: 3px solid white;
+   
+}
+
+#propose{
+    font-size: 20px;
+    width:300px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+#contactButton{
+    padding:20px 35px;
+    background-color: rgb(255, 0, 76);
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid white;
+}

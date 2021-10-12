@@ -1,0 +1,53 @@
+#recent{
+    height: 1500px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-top: 150px; */
+}
+
+
+#recent > h1 {
+    font-size: 60px;
+    margin:0;
+    margin-top: 150px;
+}
+
+.recentSection{
+    font-size: 30px;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workSection{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.workSection >h2{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.workItem{
+    border: 1px solid violet;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    width:380px;
+    height: 200px;
+    align-items: center;
+}
+
+
+
+
