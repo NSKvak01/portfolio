@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Axios from "../utils/Axios "
+import Axios from '../../lib/Axios';
 import {isEmpty, isEmail} from "validator"
 import { toast } from 'react-toastify';
 import './ContactPage.css'
