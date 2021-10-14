@@ -10,7 +10,7 @@ export class App extends Component {
         <React.Fragment>
           <ToastContainer />
           <MainRouter />
-        </React.Fragment>
+        </React.Fragment> 
       )
     }
 }
