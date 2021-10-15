@@ -11,11 +11,36 @@ export class Recent extends Component {
                         <div id="uxRecent" className="workSection">
                             <h2 className="recentSection">User Experience</h2>
                             <div className="work">
-                                <div className="workItem" id="item1">
-                                    Jersey Auto Trans
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <img src="https://i.imgur.com/mOlsKqC.jpg" className="workItem" alt="Avatar" style={{width:"300px"}} />
+                                    </div>
+                                    <div className="flip-card-back">
+                                        <img src="https://i.imgur.com/DBzpfSY.png" className="workItem" width="300" id="jat"/>
+                                    </div>
                                 </div>
-                                <div className="workItem">Go Off!</div>
-                                <div className="workItem">Tatwoo</div>
+                            </div>  
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <img src="https://i.imgur.com/LIrNyzL.png" className="workItem" alt="Avatar" style={{width:"200px"}} />
+                                    </div>
+                                    <div className="flip-card-back">
+                                <img src="https://i.imgur.com/mNj7uI0.png" className="workItem" alt="GoOFF!" width="340" />
+                                    </div>
+                                </div>
+                            </div>  
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <img src="https://pbs.twimg.com/profile_images/1344247030965706752/LZEg2N4V_400x400.jpg" className="workItem" alt="Avatar" style={{width:"200px"}} />
+                                    </div>
+                                    <div className="flip-card-back">
+                                        <img src="https://i.imgur.com/4oFJjY2.png" className="workItem" alt="Tatwoo" width="320" />
+                                    </div>
+                                </div>
+                            </div>  
                             </div>
                             
                         </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import{BrowserRouter as Router, Route} from "react-router-dom"
-import Homepage from './components/Homepage/Homepage'
 import Nav from "./components/Nav/Nav"
+import Homepage from './components/Homepage/Homepage'
 import ContactPage from "./components/ContactPage/ContactPage"
 
 const MainRouter = (props) => {
