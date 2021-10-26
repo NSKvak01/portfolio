@@ -1,19 +1,22 @@
 #recent{
-    height: 1500px;
+    /* height: 1500px; */
     background-color: white;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    z-index:0
     /* padding-top: 150px; */
 }
+
 
 
 #recent > h1 {
     font-size: 60px;
     margin:0;
-    margin-top: 150px;
+    margin-top: 50px;
     color:black;
+    margin-bottom: -20px;
 }
 
 .recentSection{
@@ -100,4 +103,25 @@
   #jat{
     margin-top: 50px;
     width:400px;
+  }
+
+  .devItem{
+    color:black
+  }
+
+  .highlight-card{
+    position:relative;
+    background-color: transparent;
+    width: 350px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40px;
+    margin-right:40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 150px;
+  }
+  .highlight-card:hover{
+    box-shadow: 0 2px 15px rgba(255, 0, 76, 0.571)
   }
